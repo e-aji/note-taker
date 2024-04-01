@@ -13,7 +13,7 @@ notes.get ('/:notes' , (req, res) => {
     readFromFile('./db/db.json')
         .then((data) => JSON.parse(data))
         .then((json) => {
-            const result = json.filter((note) => note.tip_id === tipId);
+            const result = json.filter((note) => note.tip_id === noteId);
             return result.length > 0
                 ? res.json(result)
                 : res.json('No note with that ID');
