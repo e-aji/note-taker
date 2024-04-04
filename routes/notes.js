@@ -1,14 +1,14 @@
 const notes = require('express').Router();
-const { v4 : uuidv4 } = require('uuid');
+const { v4 : uuidv4 } = require('../helpers/uuid');
 const { readFromFile, readAndAppend, writeToFile } = require('../helpers/fsUtils');
 
 
-notes.get = ('/', (req, res) => {
+notes.get('/', (req, res) => {
     console.info(`${req.method} request received for notes`);
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
-notes.get ('/:notes' , (req, res) => {
+notes.get ('/:notes_id' , (req, res) => {
     const noteId = req.params.noteId;
     readFromFile('./db/db.json')
         .then((data) => JSON.parse(data))
@@ -20,7 +20,7 @@ notes.get ('/:notes' , (req, res) => {
         });
 });
 
-notes.delete = ('/:noteId', (req, res) => {
+notes.delete('/:note_id', (req, res) => {
     const noteId = req.params.noteId;
     readFromFile('./db/db.json')
         .then((data) => JSON.parse(data))
@@ -31,7 +31,7 @@ notes.delete = ('/:noteId', (req, res) => {
         });
 });
 
-notes.post = ('/', (req, res) => {
+notes.post('/', (req, res) => {
     console.log(req.body);
     const { title, text } = req.body;
 
