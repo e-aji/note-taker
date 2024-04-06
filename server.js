@@ -1,14 +1,14 @@
 const express = require('express');
+const app = express();
 const path = require('path');
 const api = require('./routes/index.js');
-const app = express();
 const PORT = process.env.PORT || 3001;
 
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use('/api', api);
+app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
+app.use('/api', api);
 
 app.get('/', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/index.html'))
@@ -19,7 +19,7 @@ app.get('/notes', (req, res) =>
 );
 
 app.get('*', (req, res) =>
-    res.sendFile(path.join(__dirname, '/public/404.html'))
+    res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
 app.listen(PORT, () =>
