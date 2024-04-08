@@ -13,6 +13,8 @@ The aim of this project is to create a note taker application that can be used t
 - [Images](#images)
 - [Links](#links)
 
+<a name="user"></a>
+
 ## User Story
 
 ```md
@@ -21,6 +23,7 @@ I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
+<a name="acceptance"></a>
 
 ## Acceptance Criteria
 
