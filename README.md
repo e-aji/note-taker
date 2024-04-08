@@ -59,16 +59,13 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Images 
 
-Image of application without saved notes
+**Image of application without saved notes**
 
+<img width="1440" alt="Unpopulated Note Taker" src="https://github.com/e-aji/note-taker/assets/156595423/c53eea27-833d-433f-86fb-d5dc394ab8e4">
 
+**Image of application with saved notes** 
 
-
-Image of application with saved notes 
-
-
-
-
+<img width="1440" alt="Populated Note Taker" src="https://github.com/e-aji/note-taker/assets/156595423/8075945e-879e-44c3-b695-efb97fab27bd">
 
 ## Links 
 
