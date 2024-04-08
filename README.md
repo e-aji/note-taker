@@ -6,14 +6,12 @@ The aim of this project is to create a note taker application that can be used t
 
 ## Table of Contents 
 
-- [User Story](#user)
-- [Acceptance Criteria](#acceptance)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Usage](#usage)
-- [Built With](#build)
+- [Built With](#built-with)
 - [Images](#images)
 - [Links](#links)
-
-<a name="user"></a>
 
 ## User Story
 
@@ -22,8 +20,6 @@ AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
-
-<a name="acceptance"></a>
 
 ## Acceptance Criteria
 
@@ -45,11 +41,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Usage 
 
-* 
-* 
-* 
-* 
-* 
+* Open the link to the application 
+* Click the 'get started' button to be navigated to the note taker page.
+* Once on the note taker page, enter your intput into the 'title' and 'text' fields (make sure to add an input to both fields or the save note icon will not be displayed).
+* Then click on the 'save note' icon on the top right of the page to save your notes. 
+* Once the note has been saved, it will be displayed on the left handside of the page. 
+* To delete a saved note, click on the red delete icon. 
 
 ## Built with
 
