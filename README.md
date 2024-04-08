@@ -2,7 +2,16 @@
 
 ## Description 
 
-The aim of this project is to create a note taker application that can be used to write and save notes. Express.js will be used on the back end and the note data will be written and retrieved from a JSON file.
+The aim of this project is to create a note taker application that can be used to write and save notes. Express.js will be used on the back end and the note data will be written and retrieved from a JSON file. Both the back and front end of the application is then connected and merged using routes and launched for deployment in Render.
+
+## Table of Contents 
+
+- [User Story](#user)
+- [Acceptance Criteria](#acceptance)
+- [Usage](#usage)
+- [Built With](#build)
+- [Images](#images)
+- [Links](#links)
 
 ## User Story
 
@@ -33,14 +42,34 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Usage 
 
+* 
+* 
+* 
+* 
+* 
 
+## Built with
+
+* JavaScript
+* JSON
+* Node.js 
+* Express.js 
+* Render 
 
 
 ## Images 
+
+Image of application without saved notes
+
+
+
+
+Image of application with saved notes 
+
 
 
 
 
 ## Links 
 
-Link to video demonstration - 
+Link to deployed application - 
