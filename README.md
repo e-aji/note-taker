@@ -32,7 +32,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Usage 
 
-* Open link to the [application] (https://note-taker-hb00.onrender.com).
+* Open link to the [application](https://note-taker-hb00.onrender.com).
 * Click the 'get started' button to be navigated to the note taker page.
 * Once on the note taker page, enter your intput into the 'title' and 'text' fields (make sure to add an input to both fields or the save note icon will not be displayed).
 * Then click on the 'save note' icon on the top right of the page to save your notes. 
